@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 baseurl: 
 title: Tufte-Jekyll
 =======
@@ -29,8 +28,5 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-<<<<<<< Updated upstream
-  destination:  ~/Git/MatthiasFrenzl.github.com/
-=======
   destination: ~/Git/MatthiasFrenzl.github.com/
->>>>>>> Stashed changes
+
