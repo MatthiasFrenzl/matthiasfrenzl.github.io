@@ -1,4 +1,4 @@
-baseurl: matthiasfrenzl.com
+baseurl: "matthiasfrenzl.com"
 title: Tufte-Jekyll
 subtitle: Content-centric blogging
 author: clay harmon
@@ -24,4 +24,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Git/matthiasfrenzl.com
+  destination: ~/Git/matthiasfrenzl.com/
