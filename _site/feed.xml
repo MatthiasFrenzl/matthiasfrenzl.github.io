@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthias Frenzl Website</title>
-    <description>A Jekyll theme for content-rich sites</description>
+    <title>Matthias Frenzl</title>
+    <description>Articles and resources provided by Matthias Frenzl</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Oct 2022 10:17:39 -0400</pubDate>
-    <lastBuildDate>Sat, 29 Oct 2022 10:17:39 -0400</lastBuildDate>
+    <pubDate>Sat, 29 Oct 2022 10:37:04 -0400</pubDate>
+    <lastBuildDate>Sat, 29 Oct 2022 10:37:04 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
