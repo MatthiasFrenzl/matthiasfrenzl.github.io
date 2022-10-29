@@ -55,18 +55,13 @@ Tufte CSS uses ```<h1>``` for the document title, ```<p>``` with class ```code``
 
 As a bonus, this excerpt regarding the use of headings provides an example of using block quotes. Markdown does not have a native ```<cite>``` shorthand, but real html can be sprinkled in with the Markdown text. In the previous example, the ```<cite>``` was preceded with a single return after the quotation itself. The previous blockquote was written in Markdown thusly:
 
-```Liquid
-[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of *sentences* which then cumulate sequentially into *paragraphs*, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn’t require an elaborate hierarchy to organize.
-<cite>[http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB)</cite>
-```
+
 
 
 
 {% newthought 'In his later books' %}{% sidenote 'two' '[http://www.edwardtufte.com/tufte/books_be](http://www.edwardtufte.com/tufte/books_be)'%}, Tufte starts each section with a bit of vertical space, a non-indented paragraph, and sets the first few words of the sentence in small caps. To accomplish this using this style, enclose the sentence fragment you want styled with small caps in a custom Liquid tag called 'newthought' like so:
 
-```Liquid
-{{ "{% newthought 'In his later books'" }} %}
-```
+
 
 ### Text
 
@@ -84,7 +79,7 @@ Code snippets ape GitHub's font selection using Microsoft's [*Consolas*](http://
 
 
 
-If you’d like to introduce your page or a section of your page with some quotes, use epigraphs. The two examples above show how they are styled. Epigraph elements are modeled after chapter epigraphs in Tufte’s books (particularly *Beautiful Evidence*). The [Tufte-css](https://github.com/edwardtufte/tufte-css) gitub repository has detailed instructions on how to achieve this using HTML elements. As an easier alternative, the *Tufte-jekyll* theme uses custom *Liquid tag* pairs that allow the writer to embed elements such as epigraphs in the middle of the regular Markdown text being edited. 
+If you’d like to introduce your page or a section of your page with some quotes, use epigraphs. The two examples above show how they are styled. Epigraph elements are modeled after chapter epigraphs in Tufte’s books (particularly *Beautiful Evidence*). The [Tufte-css](https://github.com/edwardtufte/tufte-css) gitub repository has detailed instructions on how to achieve this using HTML elements. As an easier alternative, the *Tufte-jekyll* theme uses custom *Liquid tag* pairs that allow the writer to embed elements such as epigraphs in the middle of the regular Markdown text being edited.
 
 In order to use an epigraph in a page or section, type this:
 
@@ -118,7 +113,7 @@ Images and graphics play an integral role in Tufte’s work. To place figures in
 
 ```{{ "{% marginfigure 'mf-id-whatever' 'assets/img/rhino.png' 'F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” *Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice* (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s *Visual Explanations*.' "}} %}```.
 
-Note that this tag has *three* parameters. The first is an arbitrary id. This parameter can be named anything as long as it is unique to this post. The second parameter is the path to the image. And the final parameter is whatever caption you want to be displayed with the figure.  All parameters *must* be enclosed in quotes for this simple liquid tag to work! 
+Note that this tag has *three* parameters. The first is an arbitrary id. This parameter can be named anything as long as it is unique to this post. The second parameter is the path to the image. And the final parameter is whatever caption you want to be displayed with the figure.  All parameters *must* be enclosed in quotes for this simple liquid tag to work!
 
 In this example, the *Liquid* marginfigure tag was inserted *before* the paragraph so that it aligns with the beginning of the paragraph. On small screens, the image will collapse into a small symbol: <span class="contrast ">&#8853;</span> at the location it has been inserted in the manuscript. Clicking on it will open the image.
 
@@ -191,7 +186,7 @@ All of the standard <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> equat
 
 Please note that the block-level Mathjax expressions *must* be on their own line, separated from content above and below the block by a blank line for the Kramdown parser and the Mathjax javascript to play nicely with one another.
 
-The Mathjax integration is tricky, and some things such as the inline matrix notation simply do not work well unless allowances are made for using the notation for a small matrix. Bottom line: If you are using this to document mathematics, be super careful to isolate your <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> blocks by blank lines!  
+The Mathjax integration is tricky, and some things such as the inline matrix notation simply do not work well unless allowances are made for using the notation for a small matrix. Bottom line: If you are using this to document mathematics, be super careful to isolate your <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> blocks by blank lines!
 
 ## Tables
 
@@ -390,5 +385,3 @@ Enclose the code block in three backticks, followed by a space and then the lang
     module Jekyll
     blah, blah...
    ```</code> </pre>
-
-
