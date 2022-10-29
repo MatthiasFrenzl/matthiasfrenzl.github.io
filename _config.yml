@@ -24,4 +24,4 @@ transfer:
   command: rsync
   settings: -av
   source: _site/
-  destination: ~/Github/matthiasfrenzl.github.io/
+  destination:  ~/Git/MatthiasFrenzl.github.com/
