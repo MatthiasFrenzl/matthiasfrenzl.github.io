@@ -10,8 +10,12 @@ You can find an Github Pages implemention [here](https://matthiasfrenzl.com)
 ## Install the required software at your local machine in your local repository directory
 ```
 homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install chruby ruby-install xz
 ruby-install ruby
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc 
+echo "chruby ruby-3.1.2" >> ~/.zshrc
 gem install jekyll
 gem install jekyll bundler
 jekyll build 
