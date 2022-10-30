@@ -25,3 +25,5 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/Git/MatthiasFrenzl.github.com/
+plugins:
+  - jekyll-sitemap
