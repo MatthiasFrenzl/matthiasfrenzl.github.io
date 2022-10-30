@@ -3,12 +3,5 @@ layout: full-width
 title: About
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
-
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
-
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
-
-
+My name is *Matthias*; I’m trained in electrical engineering, entrepreneurship, and corporate finance; I worked in senior executive positions in Europe (where I had built and restructured telecommunication companies) and as a serial founder.
+I take courses in Technical Physics (with an emphasis on non-linear dynamics, optimal control, complexity theory) and some in astrophysics and cosmology. As an alumnus of the International Space University (ISU) I was one of the organizers of the 48h non-stop marathon Alumni Space Conference 2021. My research interests are in [von Neumann Self-replication](https://iafastro.directory/iac/paper/id/73256/summary/), Prediction Models, and Complex Economics (at present: thermodynamics applied to economics). Lately, with some ISU fellows, we are running a [space podcast show](https://www.spaceforward.space), deconstructing how humankind can become multi-planetary from first principles.
