@@ -3,7 +3,6 @@ This website theme is based on [Caly53](https://github.com/clayh53/tufte-jekyll/
 ## Demo
 You can find an Github Pages implemention [here](https://matthiasfrenzl.com)
 
-# Preparation
 ## Get the repo
 1) Either fork/clone or create a new empty Github repository
 2) Copy this (master-branch) repository and put it in your local machine's github directory 
@@ -36,6 +35,11 @@ Kill the processes (if necessary) by first checking their PID with `lsof -wni tc
 
 
 ## Deployment of the website at Github Pages
+You will need to create a `Github Personal Access Token`, which you will use as instead of your Github password once the `rake` CLI process prompt you.
+
+`Username:` Your Github user
+`Password:` The Github Personal Access Token. (Be aware, that the token has a limited period of validity, so you may have to renew it from time to tome
+
 ```
 rake rakefile publish
 rake -f UploadToGithub.Rakefile publish
