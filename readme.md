@@ -38,6 +38,7 @@ Kill the processes (if necessary) by first checking their PID with `lsof -wni tc
 You will need to create a `Github Personal Access Token`, which you will use as instead of your Github password once the `rake` CLI process prompt you.
 
 `Username:` Your Github user
+
 `Password:` The Github Personal Access Token. (Be aware, that the token has a limited period of validity, so you may have to renew it from time to tome
 
 ```
@@ -46,7 +47,9 @@ rake -f UploadToGithub.Rakefile publish
 ```
 
 ## Upload a new blog post
-1) Create an .md file and save it in the master-branch draft folder
+1) Check [Gummesson's](https://github.com/gummesson/jekyll-rake-boilerplate) Jekyll Rake Boilerplate Tutorial
+2) Create an .md file and save it in the master-branch draft folder
+3) Deploy
 ```
 rake 
 ```
