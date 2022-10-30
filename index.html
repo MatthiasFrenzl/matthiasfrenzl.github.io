@@ -3,15 +3,20 @@ layout: full-width
 title: Articles and resources provided by Matthias Frenzl
 # Note that this index page uses a full-width layout!
 ---
-<figure class="fullwidth"><img src="matthiasfrenzl.github.io/assets/img/Blackboard_original_web.png">
-  <h1 class="content-listing-header sans">Articles</h1>
-  <ul class="content-listing ">
-    {% for post in site.posts %}
-        <li class="listing">
-          <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div>
-        </li>
-    {% endfor %}
-  </ul>
+<style>
+    body{
+      background-image: url({{site.baseurl}}/assets/img/Blackboard_original_web.png);
+      min-height: 1000px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      overflow: hidden;
+      z-index: 10;
+    }
+
+    footer {
+      bottom: 0;
+      position: fixed;
+      z-index: 8;
+    }
+    </style>
