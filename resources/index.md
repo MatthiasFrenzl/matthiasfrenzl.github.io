@@ -5,4 +5,4 @@ layout: full-width
 Resource 1 [Text](https://stackoverflow.com/questions/45260783/jekyll-create-another-folder-with-similar-functionality-of-posts)
 
 ### All about researching xvy
-Resource 2
+Resource 2 Text
