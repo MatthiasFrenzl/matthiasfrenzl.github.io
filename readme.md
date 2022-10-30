@@ -1,9 +1,9 @@
 This website theme is based on [Caly53](https://github.com/clayh53/tufte-jekyll/tree/master) jekyll enhancements of the original [tufte-css](https://github.com/edwardtufte/tufte-css), and slightly modified. 
 
-##Demo
+## Demo
 You can find an Github Pages implemention [here](https://matthiasfrenzl.com)
 
-#Preparation
+# Preparation
 ## Get the repo
 1) Either fork/clone or create a new empty Github repository
 2) Copy this (master-branch) repository and put it in your local machine's github directory 
@@ -29,7 +29,9 @@ Check the versions with
 bundle exec jekyll serve
 ```
 Check your website via your favorite browser at `http://127.0.0.1:4000`
+
 Abort the local server with `CTRL` `C`
+
 Kill the processes (if necessary) by first checking their PID with `lsof -wni tcp:4000` and then `kill -9 PID-Number`
 
 
